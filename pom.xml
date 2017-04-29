@@ -25,6 +25,13 @@
     <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>Red Hat GA</id>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </repository>ß
+  </repositories>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
