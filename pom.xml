@@ -29,7 +29,7 @@
     <repository>
       <id>Red Hat GA</id>
       <url>https://maven.repository.redhat.com/ga/</url>
-    </repository>ß
+    </repository>
   </repositories>
 
   <dependencyManagement>
