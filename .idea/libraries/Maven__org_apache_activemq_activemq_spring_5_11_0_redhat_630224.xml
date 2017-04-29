@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.activemq:activemq-spring:5.11.0.redhat-630224">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-spring/5.11.0.redhat-630224/activemq-spring-5.11.0.redhat-630224.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-spring/5.11.0.redhat-630224/activemq-spring-5.11.0.redhat-630224-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-spring/5.11.0.redhat-630224/activemq-spring-5.11.0.redhat-630224-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
