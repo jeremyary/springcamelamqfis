@@ -1,6 +1,7 @@
 package org.jary.routes;
 
 import org.apache.camel.spring.SpringRouteBuilder;
+import org.springframework.stereotype.Component;
 
 /***
  *
@@ -8,6 +9,7 @@ import org.apache.camel.spring.SpringRouteBuilder;
  * @author jary
  * @since Apr/30/2017
  */
+@Component
 public class ProcessOrderRoute extends SpringRouteBuilder {
 
     @Override
