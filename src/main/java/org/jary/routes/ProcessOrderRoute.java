@@ -13,7 +13,7 @@ public class ProcessOrderRoute extends SpringRouteBuilder {
     @Override
     public void configure() throws Exception {
 
-        from("amq:incomingOrders")
+        from("amq:incomingOrders").routeId("processOrderRoute")
                 .choice()
                     .when().xpath("/order/customer/country = 'UK'")
                         .log("sending order ${file:name} to the UK")

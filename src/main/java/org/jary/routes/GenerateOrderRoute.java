@@ -20,7 +20,7 @@ public class GenerateOrderRoute extends SpringRouteBuilder {
     @Override
     public void configure() throws Exception {
 
-        from("timer:order?period=3000").routeId("route-timer")
+        from("timer:order?period=3000").routeId("route-timer").routeId("generateOrderRoute")
                 .to("bean:orderGenerator?method=generateOrder")
                 .setHeader("Exchange.FILE_NAME").method(orderGenerator, "generateFileName")
                 .log("generating order ${file:name}")
